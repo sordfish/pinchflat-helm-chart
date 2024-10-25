@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   pinchflat:
   - apiVersion: v2
+    appVersion: 2024.10.2
+    created: "2024-10-25T11:45:09.989744717Z"
+    description: A Helm chart for Pinchflat
+    digest: 8fe6fdefcb48290f40243ec03fba575b17766d39311ef4c79394e2764f0c59dd
+    name: pinchflat
+    type: application
+    urls:
+    - https://github.com/sordfish/pinchflat-helm-chart/releases/download/pinchflat-0.1.2/pinchflat-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.17
     created: "2024-05-04T14:37:38.584393292Z"
     description: A Helm chart for Pinchflat
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/sordfish/pinchflat-helm-chart/releases/download/pinchflat-0.1.0/pinchflat-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-04T14:37:38.584406948Z"
+generated: "2024-10-25T11:45:09.989758022Z"
