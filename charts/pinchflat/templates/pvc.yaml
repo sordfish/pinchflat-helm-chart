@@ -1,4 +1,4 @@
-{{- if .Values.persistance.config.enabled -}}
+{{- if .Values.persistence.config.enabled -}}
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -6,9 +6,9 @@ metadata:
   labels:
     {{- include "pinchflat.labels" . | nindent 4 }}
 spec:
-  storageClassName: {{ .Values.persistance.config.storageClass }}
-  accessModes: {{ .Values.persistance.config.accessModes }}
+  storageClassName: {{ .Values.persistence.config.storageClass }}
+  accessModes: {{ .Values.persistence.config.accessModes }}
   resources:
     requests:
-      storage: {{ .Values.persistance.config.size }}
+      storage: {{ .Values.persistence.config.size }}
 {{- end }}

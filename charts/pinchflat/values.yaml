@@ -99,7 +99,7 @@ volumeMounts:
   - mountPath: "/config"
     name: "pinchflat-config"
 
-persistance:
+persistence:
   config:
     enabled: true
     size: 10Gi
